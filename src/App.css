@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form {
+  background-color: #f3f3f3;
+  width: 97%;
+  margin: 45px 22px;
+  padding: 30px 18px;
+  box-shadow: rgba(227, 255, 57);
 }
 
 .App-logo {
@@ -32,7 +55,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width:500px) {
+
+  .form {
+    width: 71%;
+    margin: 71px 73px;
+  }
+
 }
